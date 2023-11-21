@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encryption & Decrytion</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Encryption & Decrytion using caesar cipher</h1>
+    <div class="text-container">
+    <div class="input-section">
+        <h2>Original Message</h2>
+        <textarea id="input-text" placeholder="Enter your text......"></textarea>
+    </div>
+    <!---input-->
+
+    <!---output-->
+    <div class="input-section">
+        <h2>Output Message</h2>
+        <textarea id="output-text" placeholder="Encryption and Decrytion will appear here......" readonly></textarea>
+    </div>
+
+</div>
+      <!-- button -->
+      <div>
+        <label for="key">Encryption</label>
+        <input type="number" id="key" min="1" max="25" value="3">
+        <button onclick="encrypt()">Encrypt</button>
+        <button onclick="decrypt()">Decrypt</button>
+      </div>
+   
+</body>
+</html>
